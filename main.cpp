@@ -1,7 +1,7 @@
 /***********************************
  * main template
  *
- * Kazumichi INOUE <k.inoue@oyama-ct.ac.jp>
+ * Kazumichi INOUE <k.inoue@oyama.kosen-ac.jp>
  *
  * Usage:
  * 	mkdir build
@@ -18,14 +18,12 @@
 #include <iostream>
 
 // 使い方を表示
-void show_usage()
-{
+void show_usage() {
     std::cerr << "Usage: ./main \n";
     std::cerr << "See you again! :-)\n";
     exit(0);
 }
 
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]) {
 	return 0;
 }
